@@ -42,7 +42,7 @@ Resources:
   BuildNumberProvider:
     Type: AWS::Serverless::Function
     Properties:
-      Runtime: nodejs10.x
+      Runtime: nodejs14.x
       Handler: src/buildNumberProvider.handler
       MemorySize: 128
       Timeout: 3
